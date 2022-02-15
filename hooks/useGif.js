@@ -7,7 +7,7 @@ const useFetch = ({ currentContractVal }) => {
 
     const fetchGifs = async () => {
         try {
-            const response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&q=${currentContractVal.split(" ").join("")}&limit=1`);
+            const response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=ySb70OrhM2gSV6xZGsYXmLapEc0oT1U3&q=${currentContractVal.split(" ").join("")}&limit=1`);
 
             const { data } = await response.json();
 
