@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* html,
+body{
+    background-image: url("https://res.cloudinary.com/jinu/image/upload/v1644692641/oz2eynmyfxfl5ykpq3tl.png");
+} */
