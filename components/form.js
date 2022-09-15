@@ -64,14 +64,14 @@ function Form() {
 
             <div className='absolute z-[9999] top-[37%] w-[40%] left-[29%] text-white'>
 
-                
+
                 <img
                     src={gifUrl}
                     alt="ANIME"
                     className="w-full h-[50vh]  rounded-md shadow-lg object-cover"
                 />
                 {currentContractVal &&
-                <h1 className='border-2 py-1 px-3 text-center uppercase mt-1'>{currentContractVal}</h1>
+                    <h1 className='border-2 py-1 px-3 text-center uppercase mt-1'>{currentContractVal}</h1>
                 }
             </div>
         </>

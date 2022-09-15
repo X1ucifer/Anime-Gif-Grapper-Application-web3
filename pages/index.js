@@ -64,7 +64,7 @@ export default function Home() {
 
       <div className="h-screen w-full object-contain relative overflow-hidden">
 
-        <video className="w-[100%] h-screen object-cover absolute backdrop-blur-sm	" src="https://res.cloudinary.com/jinu/video/upload/v1642933855/uz6s4nzbqjlgkxcukcso.mp4" autoPlay="https://res.cloudinary.com/jinu/video/upload/v1642933855/uz6s4nzbqjlgkxcukcso.mp4" loop muted></video>
+        <video className="w-[100%] h-screen object-cover absolute backdrop-blur-sm	" src="vid.mp4" autoPlay="vid.mp4" loop muted></video>
 
         <div className=" backdrop-blur-3xl  w-full h-screen z-[-9]">
 

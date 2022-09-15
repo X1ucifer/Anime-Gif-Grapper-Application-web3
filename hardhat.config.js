@@ -9,7 +9,12 @@ require("@nomiclabs/hardhat-waffle");
  */
 module.exports = {
   solidity: "0.8.4",
+  defaultNetwork: "hardhat",
   networks: {
+
+    hardhat: {
+      chainId: 1337
+    },
     rinkeby: {
 
       url: "https://eth-rinkeby.alchemyapi.io/v2/J_2TY1a3fFNbNEB1i4Ur2f7YwTjhu0Bj",
